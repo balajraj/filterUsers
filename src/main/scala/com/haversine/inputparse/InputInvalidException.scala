@@ -5,4 +5,7 @@ package com.haversine.inputparse
   */
 class InputInvalidException(msg: String) extends Exception {
 
+  override def getMessage : String  = {
+    return msg
+  }
 }

@@ -33,7 +33,7 @@ object UserFilterApp {
 
     }
     catch {
-      case ex: Exception => logger.error("Invalid input passed");
+      case ex: Exception => logger.error("Invalid input passed "+ex.getMessage);
     }
 
   }
