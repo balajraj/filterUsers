@@ -11,9 +11,10 @@ import scala.io.Source
 object UserFilterApp {
 
   val logger = LoggerFactory.getLogger("UserFilterApp")
+
   def main(args: Array[String]): Unit = {
 
-    try{
+    try {
       if (args.length < 4) {
         logger.error("Please pass in radius,lat,lng,inputfile before continuing ")
         System.exit(0)
@@ -32,7 +33,7 @@ object UserFilterApp {
 
     }
     catch {
-      case ex :Exception => logger.error("Invalid input passed");
+      case ex: Exception => logger.error("Invalid input passed");
     }
 
   }
