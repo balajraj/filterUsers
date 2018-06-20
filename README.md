@@ -7,7 +7,7 @@
  mvn clean package
 ```
 
-To run the program from command line please user the following command
+To run the program from command line please use the following command
 ```
  java -jar target/my-app-1.0-SNAPSHOT-jar-with-dependencies.jar 100 53.339428 -6.257664 "src/main/resources/input.json"
 4 Ian Kehoe

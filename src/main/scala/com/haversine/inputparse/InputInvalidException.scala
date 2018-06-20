@@ -1,8 +1,8 @@
 package com.haversine.inputparse
 
 /**
-  * The exception is thrown when the whole file input is invalid
+  * The exception is thrown for incorrect input data
   */
-class InputInvalidException(msg:String) extends Exception {
+class InputInvalidException(msg: String) extends Exception {
 
 }
